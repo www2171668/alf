@@ -44,7 +44,6 @@ function test() {
     pip3 install -e ./nest/cnest
     export PYTHONPATH=$PYTHONPATH:`pwd`/nest/cnest
     python3 -m unittest -v \
-        # alf.environments.process_environment_test \
         alf.layers_test \
 
 
